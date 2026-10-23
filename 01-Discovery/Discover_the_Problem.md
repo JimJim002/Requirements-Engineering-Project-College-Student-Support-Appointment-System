@@ -52,10 +52,21 @@ They are responsible for the deployment of the system, the integration of the pl
 4. The system should contain a real time tracking feature that tracks when exactly an available appointment has been made, updated, or cancelled.
 ### Out of Scope
 1. The system will only facilitate just direct student-to-staff communication and excluding student-to-student communication.
-2. 
+2. The system will not track any grades, GPAs, or assignments submissions.
+3. The system will not handle any transactions, payments or budgets of paid services, as all student support services should be covered by the standard student tuition.
 
 ## 7. Candidate Requirements 
+### Functional Requirements
+1. The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member.
+2. The system shall provide automatic notifications and emails to students upon successful bookings, updates or cancellations.
+3. The system shall allow the support staff to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
+### Non-Functional Requirements
+1. The system should load the online dashboard and the availability screens in a response time between 2 to 3 seconds under normal network conditions.
+2. The system should be fully functional and visually consistent on all major Web browsers, like Google Chrome, Mozilla Firefox, and Microsoft Edge.
+3. The system should log out after 20 minutes of inactivity to secure student information.
+
 ## 8. Requirement Surgery
+
 
 ## 9. Reflection
 
