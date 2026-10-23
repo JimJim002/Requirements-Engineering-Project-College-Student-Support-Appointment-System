@@ -33,6 +33,11 @@ They are responsible for overseeing the operations by the department, to monitor
 ### 4. IT/Technicians
 They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
 
+### Challenges
+1. If a student fails to attend their booked appointment, this leads to staff wasting their time and resource and may prevent the student from getting help.
+2. Students may end up booking the wrong services, leading to wasted appointments.
+3. Some staff may prefer what they are currently doing, which may create some conflicts in the bookings.
+
 ## 5. Goals
 
 ## 6. Scope
