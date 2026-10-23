@@ -36,7 +36,7 @@ They are responsible for the deployment of the system, the integration of the pl
 ### Challenges
 1. If a student fails to attend their booked appointment, this leads to staff wasting their time and resource and may prevent the student from getting help.
 2. Students may end up booking the wrong services, leading to wasted appointments.
-3. Some staff may prefer what they are currently doing, which may create some conflicts in the bookings.
+3. Some staff may prefer what they are currently using, which may create some conflicts in the bookings, while double booking would remain as an existing issue, should they refuse to adopt the new automatic system.
 
 ## 5. Goals
 1. To provide a complete transparency of when appointmens are available to reduce confusion and waiting times for the students.
@@ -75,4 +75,4 @@ They are responsible for the deployment of the system, the integration of the pl
 
 ## 9. Reflection
 Upon the completion of the Discovery phase, transitioning from the spreadsheets and emails to automatic scheduling, notifications would save a lot of time and resources and would enable students to have better visibility when an appointment is available or not. 
-As of now, the main challenge would be to design a process for students who don't know which department to contact and book an appointment for, in order to ensure that they won't book the wrong appointment.
+As of now, the main challenge would be to design a process for students who don't know which department to contact and book an appointment for, in order to ensure that they won't book the wrong appointment. Additionally, if some of the staff refuses to adopt the new automatic system, double booking may remain as an existing issue, with another issue being more booking conflicts if some of the staff continues to utilise the manual spreadsheets within the new system.
