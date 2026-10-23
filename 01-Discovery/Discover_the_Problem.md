@@ -40,7 +40,7 @@ They are responsible for the deployment of the system, the integration of the pl
 
 ## 5. Goals
 1. To provide a complete transparency of when appointmens are available to reduce confusion and waiting times for the students.
-2. To minimize manual appointments by staff by transitioning from spreadsheets and emails to automated scheduling, while also keeping the manual method for those who wish to still use it.
+2. To minimize manual appointments by staff by transitioning from spreadsheets and emails to automated scheduling.
 3. To prevent the possibility of double booking by automating the calenders synchronisation.
 4. Student privacy must be protected by restricting data access by using department-specific viewing permissions.
 
