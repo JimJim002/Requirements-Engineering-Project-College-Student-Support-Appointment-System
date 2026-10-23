@@ -74,5 +74,5 @@ They are responsible for the deployment of the system, the integration of the pl
 2. Rewrite: "The system shall work perfectly under the standard keyboard controls and provide screen readers so that students with visual impairment can book appointments without any assistance."
 
 ## 9. Reflection
-
-Upon the completion of the Discovery phase,
+Upon the completion of the Discovery phase, transitioning from the spreadsheets and emails to automatic scheduling, notifications would save a lot of time and resources and would enable students to have better visibility when an appointment is available or not. 
+As of now, the main challenge would be to design a process for students who don't know which department to contact and book an appointment for, in order to ensure that they won't book the wrong appointment.
