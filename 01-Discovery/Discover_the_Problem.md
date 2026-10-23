@@ -39,11 +39,20 @@ They are responsible for the deployment of the system, the integration of the pl
 3. Some staff may prefer what they are currently doing, which may create some conflicts in the bookings.
 
 ## 5. Goals
+1. To provide a complete transparency of when appointmens are available to reduce confusion and waiting times for the students.
+2. To minimize manual appointments by staff by transitioning from spreadsheets and emails to automated scheduling, while also keeping the manual method for those who wish to still use it.
+3. To prevent the possibility of double booking by automating the calenders synchronisation.
+4. Student privacy must be protected by restricting data access by using department-specific viewing permissions.
 
 ## 6. Scope
-
-In scope:
-Real Time Inventory Tracking: To be able to track down the progress of when the equipment becomes available or is unavailable.
+### In-Scope
+1. Students should have the option to be able to manage, update or cancel their own bookings easily (self-service booking).
+2. The system should send automatic notifications, alerts and reminders.
+3. Staff should have the ability to add and modify their custom schedules through online dashboards.
+4. The system should contain a real time tracking feature that tracks when exactly an available appointment has been made, updated, or cancelled.
+### Out of Scope
+1. The system will only facilitate just direct student-to-staff communication and excluding student-to-student communication.
+2. 
 
 ## 7. Candidate Requirements 
 ## 8. Requirement Surgery
