@@ -66,6 +66,7 @@ They are responsible for the deployment of the system, the integration of the pl
 3. The system should log out after 20 minutes of inactivity to secure student information.
 
 ## 8. Requirement Surgery
+### R1 - "Accessibility and ease of use need to be considered."
 
 
 ## 9. Reflection
