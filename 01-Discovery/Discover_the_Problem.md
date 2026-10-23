@@ -11,60 +11,38 @@
 8. Different staff may have different appointment types and availability.
  
 ## 2. Assumptions
-
+1. Staff may have the ability to set boundaries for their calenders, defining set work hours, breaks, and holidays where any bookings made at those hours are not accepted and are blocked.
+2. All the students and staff may have access to devices other than phones, such as tablets or laptops.
+3. The college may have an authentication system already implemented for verifying students.
+4. The duration of the appointments may be varied around 30 to 60 minutes based on the service type, where they can't be scheduled on an open-ended basis.
 
 ## 3. Unknowns
+1. Are there any external calender platforms being used by staff that may need backend synchronisation?
+2. What are the penalties for students who repeatedly fails to attend their scheduled booked appointments?
+3. How does the system route what support service a student who is unsure may require?
+4. Do staff require buffer time between appointments to write down notes and be prepared before the beginning of the next appointment?
+5. Do the system need to accommodate group sessions, or is it strictly limited to one-on-one appointments?
 
-Manual or automated system?
-Staff/student numbers?
-Consequences/penalty for not returning equipment?
-Maintence provider?
-Who is responsible for supplying the equipment?
-Time limit difference for the type of equipment?
-The budget required?
-Accessibility requirements?
-Reminders?
-4. Stakeholders
+## 4. Stakeholders 
+### 1. Students
+They are the primary users who need to be able to view any available booking hours, select the services they need and to book appointments.
+### 2. Staff
+They are users for the system for needing to manage appointments for the bookings and for needing to review the student appointment data.
+### 3. Administrative Staff
+They are responsible for overseeing the operations by the department, to monitor the attendance and to audit system metrics.
+### 4. IT/Technicians
+They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
 
-Students - Availability, easy booking
-Staff - Equipment
-College - Purchasing/managing equipment
-Suppliers - Equipment, alerts for limited/missing equipment
-IT Support - Assistance for students/staff
-Security - Data protection for the system Challenge: Staff/College may want to know the student booking the equipment while students may prefer to be anonymous when booking equipment.
-5. Goals
+## 5. Goals
 
-This system should help the college to efficiently monitor the amount of bookings for equipment (prevent the ability of double-booking an equipment).
-This system should help the college to efficiently monitor the availability/visibility of equipment, and any missing/not returned equipment.
-This system should the stakeholders to be able to communicate efficiently and more easily.
-6. Scope
+## 6. Scope
 
 In scope:
 Real Time Inventory Tracking: To be able to track down the progress of when the equipment becomes available or is unavailable.
-Special Order Management: To be able to record any details and status relating to custom requests.
-Recording Sales Transaction History: To be able to record and review any transactions made within the system.
-Out of scope/not yet established:
-Supplier Purchasing: Can the system place orders with third-party vendors without the need of authorisation?
-E-Books Support: Does the system support the likes of e-books in terms of sales/distribution?
-A Digital Reading List Integration: Does the systems have a link that extracts textbook lists from the college's curriculum software?
-7. Candidate Requirements
 
-Functional requirements:
-The system shall allow an authorised user to request equipment for a specified date and time.
-The system shall reveal the availability of the equipment for authorised users.
-The system shall notify the deadlines for returning equipment to users, along with the fines in failing to do so.
-The system shall allow authorised staff to manage equipment bookings.
-Non-functional requirements:
-The system shall support accessible use.
-The system shall restrict booking-management functions to authorised users.
-8. Requirement Surgery
+## 7. Candidate Requirements 
+## 8. Requirement Surgery
 
-R1 - "The system should be easy to use."
-Issue - Weak requirement because "easy" is subjective and difficult to test.
-Rewrite - 90% of 1st year student should be able to book equipment without assistance.
-R2 - "The system should be secure."
-Issue - Secure can be subjective. How secure does the system need to be?
-Rewrite - The system should encrypt all customer personal records and sales history in transit and restrict access to financial dashboards strictly to verified store managers.
-9. Reflection
+## 9. Reflection
 
 Upon the completion of the Discovery phase, it's clear that there may be some conflicts between students (for flexibility) and the shop (for profitability). While students may prefer zero risk when making purchases on the system, the shop can't afford to hold dead stock. The system may need a compromise, such as a mandatory deposit system, or an automated message for collection reminders and deadline reminders.
