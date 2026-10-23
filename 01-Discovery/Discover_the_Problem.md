@@ -71,7 +71,7 @@ They are responsible for the deployment of the system, the integration of the pl
 2. Rewrite: "The system shall allow the support staff member to see only the information of the students that are booked with them - they should not be allowed to view information of students using other departments."
 ### R2 - "Accessibility and ease of use need to be considered."
 1. Issue: This requirement is too vague as "ease of use" can be subjective as every user have their own level they consider as easy, which may not be the case for others.
-2. Rewrite: "The system shall work perfectly under the standard keyboard controls and provide screen readers so that students with visual impairment can book appointments with any assistance."
+2. Rewrite: "The system shall work perfectly under the standard keyboard controls and provide screen readers so that students with visual impairment can book appointments without any assistance."
 
 ## 9. Reflection
 
