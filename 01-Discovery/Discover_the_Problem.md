@@ -59,7 +59,7 @@ They are responsible for the deployment of the system, the integration of the pl
 ### Functional Requirements
 1. The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member.
 2. The system shall provide automatic notifications and emails to students upon successful bookings, updates or cancellations.
-3. The system shall allow the support staff to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
+3. The system shall allow the support staff members to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
 ### Non-Functional Requirements
 1. The system should load the online dashboard and the availability screens in a response time between 2 to 3 seconds under normal network conditions.
 2. The system should be fully functional and visually consistent on all major Web browsers, like Google Chrome, Mozilla Firefox, and Microsoft Edge.
@@ -68,7 +68,7 @@ They are responsible for the deployment of the system, the integration of the pl
 ## 8. Requirement Surgery
 ### R1 - "Information about students and appointments must be appropriately protected."
 1. Issue: This requirement is too vague as it doesn't define what "appropriately protected" means. Is it something to do with hiding information, and from who?
-2. Rewrite: "The system shall allow the support staff to see only the information of the students that are booked with them - they should not be allowed to view information of students using other departments."
+2. Rewrite: "The system shall allow the support staff memeber to see only the information of the students that are booked with them - they should not be allowed to view information of students using other departments."
 ### R2 - "Accessibility and ease of use need to be considered."
 1. Issue: This requirement is too vague as "ease of use" can be subjective as every user have their own level they consider as easy, which may not be the case for others.
 2. Rewrite: "The system shall work perfectly under the standard keyboard controls and provide screen readers so that students with visual impairment can book appointments with any assistance."
