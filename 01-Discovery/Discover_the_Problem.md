@@ -75,4 +75,4 @@ They are responsible for the deployment of the system, the integration of the pl
 
 ## 9. Reflection
 
-Upon the completion of the Discovery phase, it's clear that there may be some conflicts between students (for flexibility) and the shop (for profitability). While students may prefer zero risk when making purchases on the system, the shop can't afford to hold dead stock. The system may need a compromise, such as a mandatory deposit system, or an automated message for collection reminders and deadline reminders.
+Upon the completion of the Discovery phase,
