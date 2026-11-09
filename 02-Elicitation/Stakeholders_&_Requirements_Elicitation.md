@@ -35,4 +35,12 @@ IT/Technicians
 #### Concern
 IT/Technicians
 
-## 3.
+## 3. Unknowns
+
+## 4. Information Sources
+
+## 5. Elicitation Questions
+
+## 6. Interview Notes
+
+## 7. Candidate Requirement
