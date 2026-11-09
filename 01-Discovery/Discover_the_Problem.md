@@ -18,10 +18,10 @@
 
 ## 3. Unknowns
 1. Are there any external calender platforms being used by staff that may need backend synchronisation?
-2. What are the penalties for students who repeatedly fails to attend their scheduled booked appointments?
-3. How does the system route what support service a student who is unsure may require?
-4. Do staff require buffer time between appointments to write down notes and be prepared before the beginning of the next appointment?
-5. Do the system need to accommodate group sessions, or is it strictly limited to one-on-one appointments?
+3. What are the penalties for students who repeatedly fails to attend their scheduled booked appointments?
+4. How does the system route what support service a student who is unsure may require?
+5. Do staff require buffer time between appointments to write down notes and be prepared before the beginning of the next appointment?
+6. Do the system need to accommodate group sessions, or is it strictly limited to one-on-one appointments?
 
 ## 4. Stakeholders 
 ### 1. Students
@@ -32,11 +32,15 @@ They are users for the system for needing to manage appointments for the booking
 They are responsible for overseeing the operations by the department, to monitor the attendance and to audit system metrics.
 ### 4. IT/Technicians
 They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
+### 5. External Contractors
+They are external professionals who may require calendar integration to avoid double-booking with their external schedules.
+
 
 ### Challenges
 1. If a student fails to attend their booked appointment, this leads to staff wasting their time and resource and may prevent the student from getting help.
 2. Students may end up booking the wrong services, leading to wasted appointments.
-3. Some staff may prefer what they are currently using, which may result in double booking to remain as an existing issue should they refuse to adopt to the new automatic system.
+3. Some staff/contractors may prefer what they are currently using, which may result in double booking to remain as an existing issue should they refuse to adopt to the new automatic system.
+4. External contractors may find it difficult to access the internal college authentication system, leading to booking fragmentation.
 
 ## 5. Goals
 1. To provide a complete transparency of when appointmens are available to reduce confusion and waiting times for the students.
@@ -60,6 +64,7 @@ They are responsible for the deployment of the system, the integration of the pl
 1. The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member.
 2. The system shall provide automatic notifications and emails to students upon successful bookings, updates or cancellations.
 3. The system shall allow the support staff members to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
+4. The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students.
 ### Non-Functional Requirements
 1. The system should load the online dashboard and the availability screens in a response time between 2 to 3 seconds under normal network conditions.
 2. The system should be fully functional and visually consistent on all major Web browsers, like Google Chrome, Mozilla Firefox, and Microsoft Edge.
