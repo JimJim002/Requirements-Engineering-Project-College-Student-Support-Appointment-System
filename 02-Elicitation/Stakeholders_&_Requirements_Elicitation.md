@@ -9,6 +9,8 @@ They are users for the system for needing to manage appointments for the booking
 They are responsible for overseeing the operations by the department, to monitor the attendance and to audit system metrics.
 ### 4. IT/Technicians
 They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
+### 5. External Contractors
+They are external professionals who may require calendar integration to avoid double-booking with their external schedules.
 
 ## 2. Stakeholders Needs & Concerns
 ### 1. Students
@@ -34,6 +36,11 @@ The admins may
 IT/Technicians
 #### Concern
 IT/Technicians
+
+### 5. External Contractors
+#### Need
+
+#### Concern
 
 ## 3. Unknowns
 
