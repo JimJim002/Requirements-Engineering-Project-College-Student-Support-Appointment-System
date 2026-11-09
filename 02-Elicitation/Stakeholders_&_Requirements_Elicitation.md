@@ -15,32 +15,33 @@ They are external professionals who may require calendar integration to avoid do
 ## 2. Stakeholders Needs & Concerns
 ### 1. Students
 #### Need
-Students may want to be able to book an appointment with no complications or hassle.
+Students may want to be able to book an appointment easily with no complications or hassle.
 #### Concern
-Students fear that they may end up booking the wrong appointment for the service they require.
+Students fear that they may end up booking the wrong appointment for the service they require, wasting resource and time.
 
 ### 2. Staff
 #### Need
-Staff may 
+Staff may need custom schedules and be able to set automatic boundaries using the online dashboards.
 #### Concern
-Staff may be overloaded with the workload when reviewing and accepting booking requests by students.
+Staff may be overloaded with the workload when reviewing and accepting booking requests by students or may face issues with double-booked appointments made.
 
 ### 3. Administrative Staff
 #### Need
-The admins may
+The admins may need to monitor student attendance and audit operational data across all support departments.
 #### Concern
-The admins may
+The admins may waste time and resource if no-shows occur and the system lacks automatic reminders or a defined penalty system.
 
 ### 4. IT/Technicians
 #### Need
-IT/Technicians
+IT/Technicians may need to be able to seamlessly integrate a scheduling platform with the college's existing user authentication and to maintain data privacy standards.
 #### Concern
-IT/Technicians
+IT/Technicians may fear the risks of data breach or leaks if specific department viewing permissions are not enforced and automatically timed out.
 
 ### 5. External Contractors
 #### Need
-
+External contractors may need to synchronize to the new system with their third-party personal/professional calendar without needing to rely on the college's internal networks.
 #### Concern
+External contractors may become double booked or restricted from accessing their schedules due to the college's IT authentication barrier.
 
 ## 3. Unknowns
 
