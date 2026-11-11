@@ -43,12 +43,18 @@ External contractors may need to synchronize to the new system with their third-
 #### Concern
 External contractors may become double booked or restricted from accessing their schedules due to the college's IT authentication barrier.
 
-## 3. Unknowns
+## 3. Unknowns &  Information Sources
+1. What are the consequences/penalties students may face if no-shows occurred for booked appointments? Who could answer? Staff & Administrative Staff
+2. What specific information is required when booking and requesting for appointments? Who could answer? IT/Technicians
+3. What third-party calendar application is utilised by external contractors? Who could answer? External Contractors
+4. What are the requirements for synchronization
 
-## 4. Information Sources
+## 4. Elicitation Questions
+1. Are there any consequences/penalties students may face for no-shows occurred for booked appointments, and if so, who is responsible enforcing it?
+2. What other issues, other than the workload, do staff face when no-shows for booked appointments or double-booking occurs?
+3. What is the current process do students use for booking and requesting for an appointment and how do students verify that request/booking?
+4. 
 
-## 5. Elicitation Questions
-
-## 6. Interview Notes
+## 5. Interview Notes
 
 ## 7. Candidate Requirement
