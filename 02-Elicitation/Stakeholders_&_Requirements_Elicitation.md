@@ -47,7 +47,7 @@ External contractors may become double booked or restricted from accessing their
 1. What are the consequences/penalties students may face if no-shows occurred for booked appointments? Who could answer? Staff & Administrative Staff
 2. What specific information is required when booking and requesting for appointments? Who could answer? IT/Technicians
 3. What third-party calendar application is utilised by external contractors? Who could answer? External Contractors
-4. What are the requirements for synchronization
+4. What are the synchronization requirements for these third-party calendar applications? Who could answer? IT/Technicians
 
 ## 4. Elicitation Questions
 1. Are there any consequences/penalties students may face for no-shows occurred for booked appointments, and if so, who is responsible enforcing it?
