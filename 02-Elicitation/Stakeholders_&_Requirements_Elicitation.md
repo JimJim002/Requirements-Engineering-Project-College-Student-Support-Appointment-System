@@ -55,6 +55,4 @@ External contractors may become double booked or restricted from accessing their
 3. What is the current process do students use for booking and requesting for an appointment and how do students verify that request/booking?
 4. 
 
-## 5. Interview Notes
-
-## 6. Candidate Requirement
+## 5. Candidate Requirement
