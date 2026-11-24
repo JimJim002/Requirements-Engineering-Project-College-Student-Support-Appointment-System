@@ -65,12 +65,20 @@ Student mentors may become frustrated if they miss out on lectures or practicals
 3. The system shall allow the support staff members and student mentors to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
 4. The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students.
 
-## 3. (i) Requirements Surgery Overview
-
-
-## 3. (ii) Requirements Surgery Work
-
-
+## 3. Requirements Surgery Work
+### Candidate Requirement
+"The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students."
+### Sources
+1. Students: Provided the need for restricting data access.
+2. Administrative Staff: Want to assign the guest/contractor role to external users.
+3. IT/Technicians: Wants external authentication for external users so the college system won't be compromised.
+4. External Contractors: Wants the basic information of students in order to prepare for the appointments.
+### Requirement Type
+It's a functional requirement.
+### Unclear Information
+1. The requirement is vague as it fails to state what specific information of the students external contractors are able to obtain.
+2. There's a lack of information of how external contractors are able to log into the college support system.
+3. It doesn't state whether or not an expiration for accessibility the external contractor has of the student's information ends.
 
 ## 4. Functional Requirements
 ### FR-01 "The system shall allow an authorised user to view appointment availability for a selected date."
