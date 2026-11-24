@@ -51,7 +51,7 @@ Student mentors may want the ability to update their weekly hours to suit them i
 #### Concern
 Student mentors may become frustrated if they miss out on lectures or practicals if double-booking remains an issue.
 
-## 3. Unknowns &  Information Sources
+## 3. Unknowns & Information Sources
 1. What are the consequences/penalties students may face if no-shows occurred for booked appointments? Who could answer? Staff & Administrative Staff
 2. What specific information is required when booking and requesting for appointments? Who could answer? IT/Technicians
 3. What third-party calendar application is utilised by external contractors? Who could answer? External Contractors
