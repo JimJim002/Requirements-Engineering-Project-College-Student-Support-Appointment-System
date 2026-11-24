@@ -11,6 +11,8 @@ They are responsible for overseeing the operations by the department, to monitor
 They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
 ### 5. External Contractors
 They are external professionals who may require calendar integration to avoid double-booking with their external schedules.
+### 6. Student Mentors
+They are trained into hosting peer-led support systems and assist in the basic inquiries, along with providing the feedback in how the system performed.
 
 ## 2. Stakeholders Needs & Concerns
 ### 1. Students
@@ -43,6 +45,12 @@ External contractors may need to synchronize to the new system with their third-
 #### Concern
 External contractors may become double booked or restricted from accessing their schedules due to the college's IT authentication barrier.
 
+### 6. Student Mentors
+#### Need
+Student mentors may want the ability to update their weekly hours to suit them in regards to when they are available or not (due to lectures and practicals).
+#### Concern
+Student mentors may become frustrated if they miss out on lectures or practicals if double-booking remains an issue.
+
 ## 3. Unknowns &  Information Sources
 1. What are the consequences/penalties students may face if no-shows occurred for booked appointments? Who could answer? Staff & Administrative Staff
 2. What specific information is required when booking and requesting for appointments? Who could answer? IT/Technicians
@@ -53,6 +61,10 @@ External contractors may become double booked or restricted from accessing their
 1. Are there any consequences/penalties students may face for no-shows occurred for booked appointments, and if so, who is responsible enforcing it?
 2. What other issues, other than the workload, do staff face when no-shows for booked appointments or double-booking occurs?
 3. What is the current process do students use for booking and requesting for an appointment and how do students verify that request/booking?
-4. 
+4. How far in advance can a student book, reschedule or cancel an appointment and what happens if a last minute cancellation occurs?
+5. What information is required by the students when booking for an appointment, and which details are visible to other stakeholders like the staff and student mentors?
 
 ## 5. Candidate Requirement
+The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member and student mentor.
+
+## 6. Reflection
