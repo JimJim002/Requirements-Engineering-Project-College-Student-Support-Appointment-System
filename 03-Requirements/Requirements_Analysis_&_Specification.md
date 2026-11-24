@@ -79,32 +79,52 @@ It's a functional requirement.
 1. The requirement is vague as it fails to state what specific information of the students external contractors are able to obtain.
 2. There's a lack of information of how external contractors are able to log into the college support system.
 3. It doesn't state whether or not an expiration for accessibility the external contractor has of the student's information ends.
+### Questions for Clarification
+1. How does the external contractors log into the system without breaching the college system security?
+2. What specific information do the external contractors gain access to in relation to the students?
+3. Are there any expiration for the external contractor for gaining access to the specific student's information, and if so, when exactly does it expire?
+### Vertification
+1. Role Assignment: As an administrator, log onto the system, select an external user account and verify if that user has been successfully assigned a role of the "guest/contractor".
+2. Authorised Accessibility (Booked Student): As an external contractor, log into the system, view the student who has booked an appointment with them and verify if the student and the information relating to that student is visible to the external contractor.
+3. Authorised Accessibility (Unbooked Student): As an external contractor, log into the system, view the student who has NOT booked an appointment with them and verify if the student and their information is not visible and is blocked to the external contractor.
+### Remaining Unknowns
+1. Does the student book for the external contractor or is it the administrator who is responsible for assigning the student with an external contractor? 
+Who could answer? - Administrative Staff
+2. If a student cancels an appointment, does the accessibility of the external contractor to view that student's information gets immediately revoked or does it remain accessible until the cancelled date passes? 
+Who could answer? - Administrative Staff & IT/Technicians
 
 ## 4. Functional Requirements
 ### FR-01 "The system shall allow an authorised user to view appointment availability for a selected date."
-1. WHO? The authorised user needs this requirement.
-2. WHAT? To be able to view information about the available appointment.
+1. WHO? The authorised user (students, staff, & student mentors) needs this requirement.
+2. WHAT? To be able to view information about the available appointment slots.
 3. WHEN? Information will be revealed when the selected date is inputted into the system.
 4. WHY? To verify if an appointment is available before confirming a user's booking for that appointment.
 5. HOW? To verify, the system should display the appointment availability for that specific day when the user books an appointment and selects a date.
 
-### FR-02 "The system shall prevent a user from booking a selected appointment again or an appointment that is unavailable/cancelled for the selected dates."
-1. WHO? The authorised user and the system needs this requirement.
+### FR-02 "The system shall prevent a user from booking a selected appointment again or an appointment that is unavailable for the selected dates."
+1. WHO? The authorised user (students, staff, & student mentors) and the system needs this requirement.
 2. WHAT? To be able to prevent and block user bookings from being recorded and saved.
-3. WHEN? When the selected appointment has already been booked or is unavailable/cancelled.
+3. WHEN? When the selected appointment has already been booked or is unavailable.
 4. WHY? To prevent the case of double bookings and misleading users into believing the selected appointment is "available" at the selected dates.
-5. HOW? To verify, the system should check whether the selected appointment is available or not, and if it's not, block the user, save nothing, and leave an error message to state the selected appointment has already been booked or is unavailable/cancelled.
+5. HOW? To verify, the system should check whether the selected appointment is available or not, and if it's not, block the user, save nothing, and leave an error message to state the selected appointment has already been booked or is unavailable.
 
 ### FR-03 "The system shall require the user to input an expected appointment date before a new booking can be successfully saved."
-1. WHO? The authorised user, the technician, and the system needs this requirement.
+1. WHO? The authorised user (students, staff, & student mentors), the technician, and the system needs this requirement.
 2. WHAT? To require an input of an expected booking date.
 3. WHEN? Before a new booking for an appointment can be successfully saved into the database.
 4. WHY? To make sure that technicians always know exactly when a booking has been made, so it can prevent the chances of double-booking from occurring.
 5. HOW? To verify, the system should block the new booking from being saved if the user attempts to save their booking without an appointment date inputted, where the system should then give a notification to the user to input an expected appointment date.
 
+### FR-04 "The system shall allow an authorised user to book an available appointment slot for a selected date and sends a confirmation notification."
+1. WHO? The authorised user (students, staff, & student mentors) needs this requirement.
+2. WHAT? To be able to select an open appointment slot, to confirm and save booking details within the system.
+3. WHEN? When the user has applied a selected valid date, viewed the available slots and submitted their booking request.
+4. WHY? To be able to secure the user's appointment so that the system could update that the appointment slot has been booked.
+5. HOW? To verify, the system should accept a booking once an authorised user logs in, selects an available date and time, and submits the booking, where the system can then save it and update itself into stating that the available date and time has been booked, and finally sending a confirmation notification to the user saying they have booked their appointment successfully.
+
 ## 5. Quality Requirements
 ### NFR-01 "The system shall display equipment availability search results within 2 to 3 seconds of a user submitting their request."
-1. WHO? The system and the staff could need this when the system is interacting with the user.
+1. WHO? The system and the staff could need this when the system is interacting with the user (students, & student mentors).
 2. WHAT? To display the appointment availability in real time.
 3. WHEN? Within 2 to 3 seconds of the user submitting their requests.
 4. WHY? To ensure that the system is fast, efficient and responsive so that the staff can quickly confirm the details for the user.
