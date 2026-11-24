@@ -34,7 +34,8 @@ They are responsible for overseeing the operations by the department, to monitor
 They are responsible for the deployment of the system, the integration of the platform, and the user authentication.
 ### 5. External Contractors
 They are external professionals who may require calendar integration to avoid double-booking with their external schedules.
-
+### 6. Student Mentors
+They are trained into hosting peer-led support systems and assist in the basic inquiries, along with providing the feedback in how the system performed.
 
 ### Challenges
 1. If a student fails to attend their booked appointment, this leads to staff wasting their time and resource and may prevent the student from getting help.
