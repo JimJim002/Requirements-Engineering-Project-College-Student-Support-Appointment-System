@@ -56,7 +56,7 @@ They are trained into hosting peer-led support systems and assist in the basic i
 3. Staff should have the ability to add and modify their custom schedules through online dashboards.
 4. The system should contain a real time tracking feature that tracks when exactly an available appointment has been made, updated, or cancelled.
 ### Out of Scope
-1. The system will only facilitate just direct student-to-staff communication and excluding student-to-student communication.
+1. The system will only facilitate just direct student-to-staff communication and excluding unscheduled/informal student-to-student communication.
 2. The system will not track any grades, GPAs, or assignments submissions.
 3. The system will not handle any transactions, payments or budgets of paid services, as all student support services should be covered by the standard student tuition.
 
