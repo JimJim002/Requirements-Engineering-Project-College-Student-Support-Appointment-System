@@ -83,7 +83,7 @@ It's a functional requirement.
 1. How does the external contractors log into the system without breaching the college system security?
 2. What specific information do the external contractors gain access to in relation to the students?
 3. Are there any expiration for the external contractor for gaining access to the specific student's information, and if so, when exactly does it expire?
-### Vertification
+### Verification
 1. Role Assignment: As an administrator, log onto the system, select an external user account and verify if that user has been successfully assigned a role of the "guest/contractor".
 2. Authorised Accessibility (Booked Student): As an external contractor, log into the system, view the student who has booked an appointment with them and verify if the student and the information relating to that student is visible to the external contractor.
 3. Authorised Accessibility (Unbooked Student): As an external contractor, log into the system, view the student who has NOT booked an appointment with them and verify if the student and their information is not visible and is blocked to the external contractor.
