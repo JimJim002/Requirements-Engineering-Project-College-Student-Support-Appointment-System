@@ -62,9 +62,9 @@ They are trained into hosting peer-led support systems and assist in the basic i
 
 ## 7. Candidate Requirements 
 ### Functional Requirements
-1. The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member.
+1. The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member and student mentor.
 2. The system shall provide automatic notifications and emails to students upon successful bookings, updates or cancellations.
-3. The system shall allow the support staff members to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
+3. The system shall allow the support staff members and student mentors to be able to manually cancel and rearrange booked appointments in case of an emergency occurring.
 4. The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students.
 ### Non-Functional Requirements
 1. The system should load the online dashboard and the availability screens in a response time between 2 to 3 seconds under normal network conditions.
