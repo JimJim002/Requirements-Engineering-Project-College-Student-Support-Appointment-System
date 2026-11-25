@@ -39,5 +39,7 @@ CFR-04 "The system shall allow administrators to assign a guest/contractor role 
 10. Manage System Integration (IT/Technician) - Allows the IT/technicians to configure integrations, user authentications and system deployments.
 
 ## 4. Unknowns/Questions
-1. How far in advance do the authorised users have to update or cancel their booked scheduled appointment
+1. How far in advance do the authorised users have to update or cancel their booked scheduled appointment?
+
+
 ## 5. Reflection
