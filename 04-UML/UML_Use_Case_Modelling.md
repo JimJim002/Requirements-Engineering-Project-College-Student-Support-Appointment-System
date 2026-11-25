@@ -26,16 +26,22 @@ CFR-04 "The system shall allow administrators to assign a guest/contractor role 
 6. IT/Technician
 
 ## 3. Use Cases
-1. Book Appointment (Student, Student Mentor, Staff) - Allows the authorised user to select a date, check for availability and confirms a new appointment booking.
-2. View Appointment (Student, Student Mentor, Staff, Administrative Staff, External Contractor) - Allows the authorised user to view the details and the availability of the appointment based on the roles the user has.
-3. Update Appointment (Student, Student Mentor, Staff) - Allows the authorised user to modify or reschedule an existing appointment.
-4. Cancel Appointment (Student, Student Mentor, Staff) - Allows the authorised user to cancel a scheduled appointment and free up the time slot.
-5. Browse Support Services (Student, Student Mentor) - Allows the students and student mentors to filter and explore available support services by department, specific staff member or specific student mentors.
-6. Set Availability (Student Mentor, Staff) - Allows the student mentors and staff to update their availability and working hours.
-7. Monitor Attendance & Metrics (Administrative Staff) - Allows the administrative staff to monitor department metrics, no-shows and student attendance.
-8. Assign Guest/Contractor Role (Administrative Staff) - Allows the administrative staff to assign the guest/contractor role to external contractors for their booked students.
-9. Sync External Calendars (External Contractor) - Allows the external contractors to synchronise their third-party calendar applications with the system to prevent double-booking.
-10. Manage System Integration (IT/Technician) - Allows the IT/technicians to configure integrations, user authentications and system deployments.
+### 1. Book Appointment (Student, Student Mentor, Staff) - Allows the authorised user to select a date, check for availability and confirms a new appointment booking.
+(i) The authorised user logs into the system.
+(ii) The authorised user filters out the available appointment slots by service type, the staff member or student mentor.
+(iii) The authorised user selects an expected appointment date.
+(iv) The authorised user selects the time slot available and then submits their request.
+(v) Once the system verifies the appointment slot is available, the system saves the booking, marks the slot as unavailable, and then sends a confirmation notification to the authorised user.
+
+### 2. View Appointment (Student, Student Mentor, Staff, Administrative Staff, External Contractor) - Allows the authorised user to view the details and the availability of the appointment based on the roles the user has.
+### 3. Update Appointment (Student, Student Mentor, Staff) - Allows the authorised user to modify or reschedule an existing appointment.
+### 4. Cancel Appointment (Student, Student Mentor, Staff) - Allows the authorised user to cancel a scheduled appointment and free up the time slot.
+### 5. Browse Support Services (Student, Student Mentor) - Allows the students and student mentors to filter and explore available support services by department, specific staff member or specific student mentors.
+### 6. Set Availability (Student Mentor, Staff) - Allows the student mentors and staff to update their availability and working hours.
+### 7. Monitor Attendance & Metrics (Administrative Staff) - Allows the administrative staff to monitor department metrics, no-shows and student attendance.
+### 8. Assign Guest/Contractor Role (Administrative Staff) - Allows the administrative staff to assign the guest/contractor role to external contractors for their booked students.
+### 9. Sync External Calendars (External Contractor) - Allows the external contractors to synchronise their third-party calendar applications with the system to prevent double-booking.
+### 10. Manage System Integration (IT/Technician) - Allows the IT/technicians to configure integrations, user authentications and system deployments.
 
 ## 4. Unknowns/Questions
 1. Does the student book for the external contractor or is it the administrator who is responsible for assigning the student with an external contractor?
