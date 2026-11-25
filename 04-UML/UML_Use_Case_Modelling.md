@@ -17,7 +17,6 @@ CFR-03 "The system shall allow the support staff members and student mentors to 
 
 CFR-04 "The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students." - Assign Guest/Contractor Role, View Appointment (External Contractor, Administrative Staff)
 
-
 ## 2. Actors
 1. Student
 2. Student Mentor
@@ -39,7 +38,10 @@ CFR-04 "The system shall allow administrators to assign a guest/contractor role 
 10. Manage System Integration (IT/Technician) - Allows the IT/technicians to configure integrations, user authentications and system deployments.
 
 ## 4. Unknowns/Questions
-1. How far in advance do the authorised users have to update or cancel their booked scheduled appointment?
-
+1. Does the student book for the external contractor or is it the administrator who is responsible for assigning the student with an external contractor?
+2. How far in advance do the authorised users have to update or cancel their booked scheduled appointment?
+3. Can the student mentor book, update and cancel on behalf of their student or is it only for their own sessions?
+4. What are the specific appointment details and student information that are visible for each role (student, student mentor, staff, administrative staff, external contractor) when it comes to viewing the appointment?
+5. How are appointments updated or cancelled when it comes to appointments with external contractors, considering they also operate outside college hours?
 
 ## 5. Reflection
