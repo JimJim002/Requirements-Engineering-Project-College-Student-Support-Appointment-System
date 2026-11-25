@@ -1,8 +1,16 @@
 # Week 4 - Requirements Modelling
 
 ## 1. Requirements Used
-### FR-04
-"The system shall allow an authorised user to book an available appointment slot for a selected date and sends a confirmation notification."
+### Functional Requirements
+FR-01 "The system shall allow an authorised user to view appointment availability for a selected date." - Book Appointment, View Appointment
+
+FR-02 "The system shall prevent a user from booking a selected appointment again or an appointment that is unavailable for the selected dates." - Book Appointment
+
+FR-03 "The system shall require the user to input an expected appointment date before a new booking can be successfully saved." - Book Appointment
+
+FR-04 "The system shall allow an authorised user to book an available appointment slot for a selected date and sends a confirmation notification." - Book Appointment
+
+
 
 ## 2. Actors
 1. Students
