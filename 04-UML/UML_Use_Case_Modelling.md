@@ -2,14 +2,20 @@
 
 ## 1. Requirements Used
 ### Functional Requirements
-FR-01 "The system shall allow an authorised user to view appointment availability for a selected date." - Book Appointment, View Appointment
+FR-01 "The system shall allow an authorised user to view appointment availability for a selected date." - Book Appointment, View Appointment (Student, Staff, Student Mentor, plus Administrative Staff and External Contractor)
 
-FR-02 "The system shall prevent a user from booking a selected appointment again or an appointment that is unavailable for the selected dates." - Book Appointment
+FR-02 "The system shall prevent a user from booking a selected appointment again or an appointment that is unavailable for the selected dates." - Book Appointment (Student, Staff, Student Mentor)
 
-FR-03 "The system shall require the user to input an expected appointment date before a new booking can be successfully saved." - Book Appointment
+FR-03 "The system shall require the user to input an expected appointment date before a new booking can be successfully saved." - Book Appointment (Student, Staff, Student Mentor, IT/Technician)
 
-FR-04 "The system shall allow an authorised user to book an available appointment slot for a selected date and sends a confirmation notification." - Book Appointment
+FR-04 "The system shall allow an authorised user to book an available appointment slot for a selected date and sends a confirmation notification." - Book Appointment (Student, Staff, Student Mentor)
 
+### Candidate Functional Requirements
+CFR-01 "The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member and student mentor." - Browse Support Services, Book Appointment (Student, Student Mentor)
+
+CFR-03 "The system shall allow the support staff members and student mentors to be able to manually cancel and rearrange booked appointments in case of an emergency occurring." - Update Appointment, Cancel Appointment (Staff, Student Mentor)
+
+CFR-04 "The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students." - Assign Guest/Contractor Role, View Appointment (External Contractor, Administrative Staff)
 
 
 ## 2. Actors
