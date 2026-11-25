@@ -27,11 +27,11 @@ CFR-04 "The system shall allow administrators to assign a guest/contractor role 
 
 ## 3. Use Cases
 ### 1. Book Appointment (Student, Student Mentor, Staff) - Allows the authorised user to select a date, check for availability and confirms a new appointment booking.
-(i) The authorised user logs into the system.
-(ii) The authorised user filters out the available appointment slots by service type, the staff member or student mentor.
-(iii) The authorised user selects an expected appointment date.
-(iv) The authorised user selects the time slot available and then submits their request.
-(v) Once the system verifies the appointment slot is available, the system saves the booking, marks the slot as unavailable, and then sends a confirmation notification to the authorised user.
+1. The authorised user logs into the system.
+2. The authorised user filters out the available appointment slots by service type, the staff member or student mentor.
+3. The authorised user selects an expected appointment date.
+4. The authorised user selects the time slot available and then submits their request.
+5. Once the system verifies the appointment slot is available, the system saves the booking, marks the slot as unavailable, and then sends a confirmation notification to the authorised user.
 
 ### 2. View Appointment (Student, Student Mentor, Staff, Administrative Staff, External Contractor) - Allows the authorised user to view the details and the availability of the appointment based on the roles the user has.
 ### 3. Update Appointment (Student, Student Mentor, Staff) - Allows the authorised user to modify or reschedule an existing appointment.
