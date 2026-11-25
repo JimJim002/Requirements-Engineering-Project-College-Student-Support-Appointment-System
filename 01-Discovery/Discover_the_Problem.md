@@ -51,7 +51,7 @@ They are trained into hosting peer-led support systems and assist in the basic i
 
 ## 6. Scope
 ### In-Scope
-1. Students should have the option to be able to manage, update or cancel their own bookings easily (self-service booking).
+1. Students and student mentors should have the option to be able to manage, update or cancel their own bookings easily (self-service booking).
 2. The system should send automatic notifications, alerts and reminders.
 3. Staff should have the ability to add and modify their custom schedules through online dashboards.
 4. The system should contain a real time tracking feature that tracks when exactly an available appointment has been made, updated, or cancelled.
