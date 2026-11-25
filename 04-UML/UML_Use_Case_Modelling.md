@@ -19,23 +19,25 @@ CFR-04 "The system shall allow administrators to assign a guest/contractor role 
 
 
 ## 2. Actors
-1. Students
-2. Staff
-3. Student Mentors
+1. Student
+2. Student Mentor
+3. Staff
+4. Administrative Staff
+5. External Contractor
+6. IT/Technician
 
 ## 3. Use Cases
-### 1. Book an Available Appointment Slot
-See if the authorised user is able to book an available appointment slot by logging into the system and reviewing the calendar to see if the appointment is available at the selected date.
-
-### 2. Attempt to Book an Appointment Slot that's already been Taken
-See if the authorised user is blocked from booking an appointment slot that has already been taken by logging into the system and reviewing the calendar to see if the appointment has already been booked at the selected date.
-
-### 3. Verify if an Appointment isn't Available at the Selected Date
-See if the authorised user is unable to an appointment that is unavailable at the selected date by logging into the system and reviewing the calendar to see if the appointment is unavailable at the selected date.
-
-### 4. Verify if Confirmation Notification Fails to Deliver
-See if the authorised user is able to receive a confirmation notification by logging into the system, reviewing the calendar to see if they receive a confirmation notification upon succeeding or failing to book an appointment slot at a selected date.
+1. Book Appointment (Student, Student Mentor, Staff) - Allows the authorised user to select a date, check for availability and confirms a new appointment booking.
+2. View Appointment (Student, Student Mentor, Staff, Administrative Staff, External Contractor) - Allows the authorised user to view the details and the availability of the appointment based on the roles the user has.
+3. Update Appointment (Student, Student Mentor, Staff) - Allows the authorised user to modify or reschedule an existing appointment.
+4. Cancel Appointment (Student, Student Mentor, Staff) - Allows the authorised user to cancel a scheduled appointment and free up the time slot.
+5. Browse Support Services (Student, Student Mentor) - Allows the students and student mentors to filter and explore available support services by department, specific staff member or specific student mentors.
+6. Set Availability (Student Mentor, Staff) - Allows the student mentors and staff to update their availability and working hours.
+7. Monitor Attendance & Metrics (Administrative Staff) - Allows the administrative staff to monitor department metrics, no-shows and student attendance.
+8. Assign Guest/Contractor Role (Administrative Staff) - Allows the administrative staff to assign the guest/contractor role to external contractors for their booked students.
+9. Sync External Calendars (External Contractor) - Allows the external contractors to synchronise their third-party calendar applications with the system to prevent double-booking.
+10. Manage System Integration (IT/Technician) - Allows the IT/technicians to configure integrations, user authentications and system deployments.
 
 ## 4. Unknowns/Questions
-
+1. How far in advance do the authorised users have to update or cancel their booked scheduled appointment
 ## 5. Reflection
