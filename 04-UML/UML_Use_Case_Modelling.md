@@ -11,8 +11,7 @@ The system shall allow an authorised user to book an available appointment slot 
 
 ## 3. Use Cases
 * Book Appointment
-<<include>>
-* Send Confirmation Notification
+* Send Confirmation Notification (included)
 
 ## 4. Unknowns/Questions
 
