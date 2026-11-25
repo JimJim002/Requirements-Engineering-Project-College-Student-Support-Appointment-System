@@ -123,7 +123,7 @@ Who could answer? - Administrative Staff & IT/Technicians
 5. HOW? To verify, the system should accept a booking once an authorised user logs in, selects an available date and time, and submits the booking, where the system can then save it and update itself into stating that the available date and time has been booked, and finally sending a confirmation notification to the user saying they have booked their appointment successfully.
 
 ## 5. Quality Requirements
-### NFR-01 "The system shall display equipment availability search results within 2 to 3 seconds of a user submitting their request."
+### NFR-01 "The system shall display appointment availability search results within 2 to 3 seconds of a user submitting their request."
 1. WHO? The system and the staff could need this when the system is interacting with the user (students, & student mentors).
 2. WHAT? To display the appointment availability in real time.
 3. WHEN? Within 2 to 3 seconds of the user submitting their requests.
