@@ -36,6 +36,7 @@
 ## 3. Multiplicities
 ### Association - Multiplicity - Justification - What Requires Clarification?
 * Student - Appointment - 1 to 0..* - FR-04, CFR-02:
+
 Allows a student to book, update, cancel more than one appointments, where each booking belongs to one student. - Can a group appointment ever involve more than one student? (Unknown 5, Week 1)
 * Appointment - TimeSlot - 0..1 to 1 - FR-02:
 
