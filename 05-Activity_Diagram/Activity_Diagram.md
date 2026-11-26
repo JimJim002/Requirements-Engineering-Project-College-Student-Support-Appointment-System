@@ -5,7 +5,7 @@ Student's Support Service Appointments - Booking & Management
 
 ## 2. Purpose
 * A step-by-step process that shows what happens within the system during the core features that can be performed in the system, such as booking, viewing, updating, cancelling appointments and setting availability.
-* To show the steps in a more clearer way. 
+* To show the steps in a clearer way using a visual activity diagram to explain how the core system operates.
 
 ## 3. Activities
 ### Logging & Verifying Role
@@ -15,7 +15,7 @@ Student's Support Service Appointments - Booking & Management
 
 ### Book Appointment
 1. Filter Support Services for Browsing: When the authorised user selects "Book Appointment", they are able to filter out the support services they want to browse based on service type, the specific staff member and specific student mentor.
-2. Selects Expected Appointment Date: The authorised then is prompted to enter an expected appointment date they wish to book.
+2. Selects Expected Appointment Date: The authorised user is then prompted to enter an expected appointment date they wish to book.
 3. *Inputted the Date?*: The system verifies if the available date is inputted. If "NO" it displays an error message telling the authorised user hasn't entered an expected appointment date and loops back to the previous step ("Displays Error Notification" and loops back to STEP 2). If "YES" the system proceeds to the next step (STEP 4).
 4. Select Available Time Slot & Submit: The authorised user is then prompted to enter an available time slot before they submit their request to the system.
 5. *Available Time Slot?*: The system verifies if the inputted time slot is available for booking. If "NO" it displays an error message telling the authorised user that the time slot is unavailable and loops back to the previous step for the user to enter another available time slot ("Displays Error Notification" and loops back to STEP 4). If "YES" the system proceeds to the next step (STEP 6).
@@ -28,10 +28,10 @@ Student's Support Service Appointments - Booking & Management
 
 ### Update / Cancel Appointment
 1. Select Existing Booking: When the authorised user selects "Update / Cancel Appointment", they can select an existing booking they have already booked.
-2. *Update or Cancel?*: The authorised can pick between "UPDATE" for updating their booking or "CANCEL" for cancelling their booking. Any one of these options would led to the outcomes below.
+2. *Update or Cancel?*: The authorised user can pick between "UPDATE" for updating their booking or "CANCEL" for cancelling their booking. Either of these options would led to the outcomes below.
 #### "UPDATE" is selected:
 * (i) Select New Date & Available Time Slot: When "UPDATE" is selected, the authorised user can select and update a new date and available time slot for their booking.
-* (ii) *Is it Available?*: The system verifies if the new date and time slot are available for booking. If "NO" it displays an error message telling the authorised user that the new date or time slot have already been booked is unavailable and loops back for the user to enter another new date and time slot available ("Displays Error Notification" and loops back to STEP (i)). If "YES" the system proceeds to the next step (STEP (iii)).
+* (ii) *Is it Available?*: The system verifies if the new date and time slot are available for booking. If "NO" it displays an error message telling the authorised user that the new date or time slot is already booked is unavailable and loops back for the user to enter another new date and time slot available ("Displays Error Notification" and loops back to STEP (i)). If "YES" the system proceeds to the next step (STEP (iii)).
 * (iii) Updates Booking & Frees the Old Slot & Locks New Booked Slot as Unavailable: Once the system verifies that there is a date and time slot available, it saves and updates the booking, frees the old slot and locks the new booked slot and marks it as unavailable.
 * (iv) Sends Confirmation Notification: The system sends a confirmation notification to the user, stating that their booking has been successfully updated.
 #### "CANCEL" is selected:
@@ -48,7 +48,7 @@ Student's Support Service Appointments - Booking & Management
 ## 4. Decision & Guards
 ### Select Action
 * "Book Appointment" - This action allows the authorised user to filter the support services they want to browse before they proceed to create a new booking.
-* "View Appointment" - This action allows the authorised user to filter the appointment by date, service type or a specific staff member or student mentor, where the system would then display the relevant appointment information based on the authorised user's role and access permisisons.
+* "View Appointment" - This action allows the authorised user to filter the appointment by date, service type or a specific staff member or student mentor, where the system would then display the relevant appointment information based on the authorised user's role and access permissions.
 * "Update / Cancel Appointment" - This action allows the authorised user to select an existing booking they have before they select whether to update or cancel that existing booking.
 * "Set Availability" - This action allows the authorised user to select the hours they are available or unavailable at, where it goes through a check on whether there are other bookings that it may conflict with, before saving and updating the available slots they are available/unavailable for.
 
@@ -67,13 +67,23 @@ Student's Support Service Appointments - Booking & Management
 * "YES" - The system proceeds to the next step, where it updates the booking and frees the old slot and locks the new booked slot as unavailable. It sends a confirmation notification to the authorised user, stating that their booking has been successfully updated and saved.
 
 ### Conflicts with Existing Booking? (Set Availability)
-* "YES" - The system alerts the authorised user that they need to either reschedule or cancel their conflicting booking.
+* "YES" - The system alerts the authorised user that they need to either reschedule or cancel their conflicting booking, and loops them back to enter another hour they are available or unavailable.
 * "NO" - The system proceeds to the next step, where it saves and updates the available slots they are available/unavailable for. It then sends a confirmation notification to the authorised user, stating that their hours have been successfully updated and saved.
   
 ## 5. Unknowns
+1. What would happen if, within the odds, that two authorised users both booked the same booking at the same time? Does the system hold the slot while they are submitting or does it check the availability of that slot?
+2. How often do the external contractor need to synchronize their third-party calendar apps so that the external slots are not appearing as available while booking or updating occurs?
+3. When a staff member or a student mentor blocks off hours over an existing booking, would the system automatically notify the students who are affected, or is it up to that staff member or student mentor to manually update or cancel it?
+4. The minimum notice that is required before an appointment is booked, updated, or cancelled?
 
 ## 6. Stakeholder Question
+1. How frequently does the external contractor's calendar sync? Who could answer? IT/Technicians
+2. What is the minimum notice that is required before an appointment is booked, updated, or cancelled by the user? Who could ask? Staff & Administrative Staff
+3. What happens if two users booked the same booking at the same time? What does the system do? Who to ask? IT/Technicians
 
 ## 7. Modelling Decision
+* The modelling only includes 6 of the 10 use cases (use cases 1 to 6 - "Book Appointment", "View Appointment", "Update Appointment", "Cancel Appointment", "Browse Support Services", "Set Availability") from the previous section.
+* Use cases 7 to 10 ("Monitor Attendance & Metrics", "Assign Guest/Contractor Role", "Sync External Calendars", "Manage System Integration") were excluded within the activity diagram as, unlike use cases 1 to 6, they don't have the direct day-to-day actions that are performed by the regular user. Use cases 7 to 10 are mainly acting as supports within the system's background instead of being able to manage or schedule an appointment. Also, including more use cases them would overcrowd the activity diagram, making it hard to follow.
+* The standards were utilised for the activity diagram - the initial state as the starting point, the final state as the end point, the activity state for the actions and what they do, the control flow for showing what one action or decision leads to, and decisions/guards to show multiple outcomes that could happen within a single action.
 
 ## 8. Reflection
