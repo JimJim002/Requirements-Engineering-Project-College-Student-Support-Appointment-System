@@ -64,7 +64,13 @@ Student mentors may become frustrated if they miss out on lectures or practicals
 4. How far in advance can a student book, reschedule or cancel an appointment and what happens if a last minute cancellation occurs?
 5. What information is required by the students when booking for an appointment, and which details are visible to other stakeholders like the staff and student mentors?
 
-## 5. Candidate Requirement
-The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member and student mentor.
+## 5. Candidate Requirements
+CFR-01 "The system shall allow students to be able to filter out any available appointments based on service type and the specific staff member and student mentor."
+
+CFR-02 "The system shall provide automatic notifications and emails to students upon successful bookings, updates or cancellations."
+
+CFR-03 "The system shall allow the support staff members and student mentors to be able to manually cancel and rearrange booked appointments in case of an emergency occurring."
+
+CFR-04 "The system shall allow administrators to assign a guest/contractor role to external users, restricting data access only to their booked students."
 
 ## 6. Reflection
