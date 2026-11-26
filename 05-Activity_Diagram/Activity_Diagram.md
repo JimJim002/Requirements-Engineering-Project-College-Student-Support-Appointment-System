@@ -72,7 +72,7 @@ Student's Support Service Appointments - Booking & Management
   
 ## 5. Unknowns
 1. What would happen if, within the odds, that two authorised users both booked the same booking at the same time? Does the system hold the slot while they are submitting or does it check the availability of that slot?
-2. How often do the external contractor need to synchronize their third-party calendar apps so that the external slots are not appearing as available while booking or updating occurs?
+2. How often do external contractors need to synchronize their third-party calendar apps so that the external slots are not appearing as available while booking or updating occurs?
 3. When a staff member or a student mentor blocks off hours over an existing booking, would the system automatically notify the students who are affected, or is it up to that staff member or student mentor to manually update or cancel it?
 4. The minimum notice that is required before an appointment is booked, updated, or cancelled?
 
@@ -83,7 +83,7 @@ Student's Support Service Appointments - Booking & Management
 
 ## 7. Modelling Decision
 * The modelling only includes 6 of the 10 use cases (use cases 1 to 6 - "Book Appointment", "View Appointment", "Update Appointment", "Cancel Appointment", "Browse Support Services", "Set Availability") from the previous section.
-* Use cases 7 to 10 ("Monitor Attendance & Metrics", "Assign Guest/Contractor Role", "Sync External Calendars", "Manage System Integration") were excluded within the activity diagram as, unlike use cases 1 to 6, they don't have the direct day-to-day actions that are performed by the regular user. Use cases 7 to 10 are mainly acting as supports within the system's background instead of being able to manage or schedule an appointment. Also, including more use cases them would overcrowd the activity diagram, making it hard to follow.
+* Use cases 7 to 10 ("Monitor Attendance & Metrics", "Assign Guest/Contractor Role", "Sync External Calendars", "Manage System Integration") were excluded within the activity diagram as, unlike use cases 1 to 6, they don't have the direct day-to-day actions that are performed by the regular user. Use cases 7 to 10 are mainly acting as supports within the system's background instead of being able to manage or schedule an appointment. Also, including more use cases would overcrowd the activity diagram, making it hard to follow.
 * The standards were utilised for the activity diagram - the initial state as the starting point, the final state as the end point, the activity state for the actions and what they do, the control flow for showing what one action or decision leads to, and decisions/guards to show multiple outcomes that could happen within a single action.
 
 ## 8. Reflection
