@@ -1,9 +1,9 @@
 # Week 6 - Class Diagram
 
 ## 1. Candidate Domain Concepts
-### Candidate | Class, Attribute, Association | Supporting Requirments
-* Student | Class | FR-01, FR-04, CRF-01
-* Appointment | Class | FR-03, FR-04, CRF-02
+### Candidate | Class, Attribute, Association | Supporting Requirements
+* Student | Class | FR-01, FR-04, CFR-01
+* Appointment | Class | FR-03, FR-04, CFR-02
 * Expected date | Attribute (of Appointment) | FR-03
 * Service type | Attribute (of Appointment) | CFR-01
 * Status | Attribute (of Appointment) (candidate) | FR-04, CFR-02, CFR-03
@@ -43,7 +43,7 @@ Allows a student to book, update, cancel more than one appointments, where each 
 
 Prevents double-booking, as the appointment reserves only 1 slot and that slot holds at most 1 booking.
 
-* Appointment - SupportSevice | 0..* to 1 | CFR-01:
+* Appointment - SupportService | 0..* to 1 | CFR-01:
 
 A booking is linked to one specific support service, while a service can have many bookings.
 
@@ -81,15 +81,17 @@ It's been stated that the administrators can assign the guest/contractor role to
 * CFR-03 | StaffMember & StudentMentor - manages availability of - TimeSlot | YES
 * CFR-04 | AdminStaff - assigns role to - ExternalContractor - views Appointment | Clarification Required
 
-## 4. Unknowns
+## 5. Unknowns
 1. Do the TimeSlot intervals (startTime and endTime) follow a fixed duration for all services or can it be varied based on the SupportService? Who could answer? Staff & Administrative Staff
 2. Do students book directly to the ExternalContractor or does the AdminStaff assigns them one, and what student details are visible for the ExternalContractor to view? Who could answer? Administrative Staff & External Contractors
 3. What exact state does the status attribute on Appointment support for attendance monitoring? Who could answer? Administrative Staff
 
-## 5. Assumptions
+## 6. Assumptions
 1. When the ExternalContractor is linked to the Appointment, they could only view the basic information of only their booked students, and being blocked out of viewing unrelated student details.
 2. Each TimeSlot belongs to either one StaffMember or one StudentMentor rather than that TimeSlot being shared.
 
-## 6. Modelling Decision
+## 7. Modelling Decision
+* Unlike the Activity Diagram, the AdminStaff were included as while their associated use cases (7 to 10) were excluded, the role assignment and the appointment monitoring are core structural rules of the domain.
+* Meanwhile, IT/Technicians and the NFR-01 was excluded as technical deployments are mainly outside the system's domain.
 
-## 7. Reflection
+## 8. Reflection
