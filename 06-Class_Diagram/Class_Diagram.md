@@ -81,8 +81,15 @@ It's been stated that the administrators can assign the guest/contractor role to
 * CFR-03 | StaffMember & StudentMentor - manages availability of - TimeSlot | YES
 * CFR-04 | AdminStaff - assigns role to - ExternalContractor - views Appointment | Clarification Required
 
-## 4. Unknowns & Assumptions
+## 4. Unknowns
+1. Do the TimeSlot intervals (startTime and endTime) follow a fixed duration for all services or can it be varied based on the SupportService? Who could answer? Staff & Administrative Staff
+2. Do students book directly to the ExternalContractor or does the AdminStaff assigns them one, and what student details are visible for the ExternalContractor to view? Who could answer? Administrative Staff & External Contractors
+3. What exact state does the status attribute on Appointment support for attendance monitoring? Who could answer? Administrative Staff
 
-## 5. Modelling Decision
+## 5. Assumptions
+1. When the ExternalContractor is linked to the Appointment, they could only view the basic information of only their booked students, and being blocked out of viewing unrelated student details.
+2. Each TimeSlot belongs to either one StaffMember or one StudentMentor rather than that TimeSlot being shared.
 
-## 6. Reflection
+## 6. Modelling Decision
+
+## 7. Reflection
