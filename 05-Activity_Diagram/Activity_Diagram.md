@@ -1,7 +1,7 @@
 # Week 5 - Activity Diagram
 
 ## 1. Process Modelled
-Student's Support Service Appointments - Booking & Management
+Student Support Service Appointments - Booking & Management
 
 ## 2. Purpose
 * A step-by-step process that shows what happens within the system during the core features that can be performed in the system, such as booking, viewing, updating, cancelling appointments and setting availability.
