@@ -22,3 +22,13 @@
 
 ## 3. Prioritisation & Release Boundary
 ### Item | Priority / Status / Justification or Stakeholder Question
+* Core Booking & Slot Availability (FR-01 to FR-04, CFR-01) | Must | The authorised user needs to be able to successfully browse and book an appointment without running into issues such as double-booking or booking conflicts.
+* Automatic Notifications (CFR-02) | Should | It's useful for reducing users from missing out on their booked appointments, even though users could view their bookings in the "My Bookings" as an alternative.
+* Staff & Mentor Emergency & Guest Role Setup (CFR-03, CFR-04) | Could | Would be desirable since the administrator staff could manage any schedule changes and assigning the guest/contractor role.
+* Search Speed (NFR-01) | Should | It's useful for providing a great user experience for the system, though the peak student searches is still requires confirmation.
+* External Contractor Restrictions | Must | Important for protecting the privacy of students before an external contractor logs into the system.
+* Booking Walkthrough with Keyboard only | Provisional | It may be proposed as being useful in accessibility and support for all students, has yet to be approved.
+
+## 4. Review, Consistency & Traceability
+### Checklist
+* Single Concern - Pass
