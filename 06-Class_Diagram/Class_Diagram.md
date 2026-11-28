@@ -3,10 +3,10 @@
 ## 1. Candidate Domain Concepts
 ### Candidate | Class, Attribute, Association | Supporting Requirements
 * Student | Class | FR-01, FR-04, CFR-01
-* Appointment | Class | FR-03, FR-04, CFR-02
+* Appointment | Class | FR-03, FR-04, UC-01
 * Expected date | Attribute (of Appointment) | FR-03
 * Service type | Attribute (of Appointment) | CFR-01
-* Status | Attribute (of Appointment) (candidate) | FR-04, CFR-02, CFR-03
+* Status | Attribute (of Appointment) (candidate) | FR-04, UC-03, UC-04
 * TimeSlot | Class | FR-01, FR-02
 * Is available | Attribute (of TimeSlot) (candidate) | FR-01, FR-02
 * Start time | Attribute (of TimeSlot) (candidate) | FR-01
@@ -23,7 +23,7 @@
 
 ## 2. Associations
 ### Class 1 | Relationship Label | Class 2 | Evidence
-* Student | books | Appointment | FR-04, CFR-02
+* Student | books | Appointment | FR-04, UC-01
 * Appointment | reserves | TimeSlot | FR-02, FR-04
 * Appointment | is for | SupportService | CFR-01
 * StaffMember | delivers | SupportService | CFR-01
