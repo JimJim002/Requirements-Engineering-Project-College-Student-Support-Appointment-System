@@ -24,7 +24,7 @@ Booking referencing, mandatory/optional cancellation reasons are unconfirmed yet
 * SCREEN 3 | Booking Confirmed | Shows the confirmed booking and its details, along with sending a confirmation notification to the user (FR-04, CFR-02).
 * SCREEN 4 | My Bookings | Contains a filterable table of the appointment details for viewing (UC-02), along with an "Update" and "Cancel" action buttons (UC-03, UC-04).
 * SCREEN 5 | Update Appointment | View the current booked appointment summary, selects a new appointment date and time slot (FR-01, FR-02, FR-03, UC-03), and saves and updates the updated booking and sends a confirmation notification for it (CFR-02).
-* SCREEN 6 | Cancel Appointment | View the booking summary of the chosen booking, insert a reason for the cancellation (UC-04), and confirms the cancellation (UC-04, CFR-02) and get a confirmation notification for it (CFR-02), otherwise they could keep their booking.
+* SCREEN 6 | Cancel Appointment | View the booking summary of the chosen booking, insert a reason for the cancellation (UC-04), and confirms the cancellation (UC-04) and get a confirmation notification for it (CFR-02), otherwise they could keep their booking.
 
 ## 3. Structured Walkthrough & Requirements Finding
 ### Finding/Question | Evidence Type | Action or Next Step
