@@ -37,7 +37,7 @@
 ### Association | Multiplicity | Justification
 * Student - Appointment | 1 to 0..* | FR-04, CFR-02:
 
-Allows a student to book, update, cancel more than one appointments, where each booking belongs to one student.
+Allows a student to book (FR-04), update, cancel (CFR-02) more than one appointments, where each booking belongs to one student.
 
 * Appointment - TimeSlot | 0..1 to 1 | FR-02:
 
